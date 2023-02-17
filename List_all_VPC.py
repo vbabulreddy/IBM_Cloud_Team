@@ -13,5 +13,3 @@ for vpc in ec2_resource.vpcs.all():
             subnet_ids.append(subnet.id)
 # the result of this call has the data you're looking for
 print(ec2_client.describe_subnets(SubnetIds=subnet_ids))
-
-""" for more information: https://stackoverflow.com/questions/59777371/list-subnets-in-an-aws-by-vpc-id """

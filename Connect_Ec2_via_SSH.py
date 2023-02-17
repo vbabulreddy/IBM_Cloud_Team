@@ -24,6 +24,3 @@ try:
 
 except Exception as e:
     print(e)
-
-""" for more information: https://stackoverflow.com/questions/42645196/how-to-ssh-and-run-commands-in-ec2-using-boto3 """
-

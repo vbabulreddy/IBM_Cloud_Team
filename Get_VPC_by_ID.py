@@ -15,6 +15,3 @@ def get_vpc_id_by_node_obj(aws_obj, instances):
     vpc_id = aws_obj.get_vpc_id_by_instance_id(instance_id)
 
     return vpc_id 
-
-
-""" for more information: https://www.programcreek.com/python/?CodeExample=get+vpc+id """
